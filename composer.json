@@ -1,0 +1,20 @@
+{
+  "name": "worksection/remote-storage",
+  "description": "Remote storage",
+  "version": "1.0.0",
+  "require": {
+    "php": "^7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-xml": "*",
+    "ext-fileinfo": "*",
+    "phpseclib/phpseclib": "^2.0",
+    "ext-simplexml": "*",
+    "ext-ftp": "*"
+  },
+  "autoload": {
+      "psr-4": {
+        "RemoteStorage\\": "src/"
+      }
+  }
+}
